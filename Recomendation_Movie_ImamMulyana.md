@@ -40,11 +40,7 @@ Mengembangkan pendekatan content-based filtering dengan melakukan feature engine
 
 Data yang digunakan pada proyek kali ini adalah berjumlah 22.884.377 juta data, namun karena ada permasalahan komputasi maka data yang digunakan hanya 200.000 ribu data. Dataset yang digunakan berbentuk csv dan tersimpan kedalam 2 file csv, oleh karena itu selanjutnya data digabungkan atau dimerge agar mempermudah proses selanjutnya. Data tidak memiliki missing value dan terdiri penonton film: 2206, jumlah film: 11137, dan jumlah genre: 1446 semuanya didapatkan dari nilai unik masing-masing. Adapun dataset yang digunakan adalah [movies_recomendation_system](https://www.kaggle.com/datasets/kanametov/movies-recomendation-system?select=links.csv) dengan komposisi varibel `userId`, `movieId`, `rating`, `timestamp`, `title`, dan `genres`. Selanjutnya variabel yang digunakan dalam pembuatan proyek dengan model content based filtering ini terdiri dari`userId`, `movieId`, `title`, dan `genres`, namun sebelumnya untuk varibel `genres` harus displiting terlebih dahulu karena proyek ini hanya akan menggunakan satu genre dengan satu movie.
 
-Paragraf awal bagian ini menjelaskan informasi mengenai jumlah data, kondisi data, dan informasi mengenai data yang digunakan. Sertakan juga sumber atau tautan untuk mengunduh dataset. Contoh: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Restaurant+%26+consumer+data).
-
-Selanjutnya, uraikanlah seluruh variabel atau fitur pada data. Sebagai contoh:
-
-Variabel-variabel pada Restaurant UCI dataset adalah sebagai berikut:
+Variabel-variabelnya adalah sebagai berikut:
 
 - `userId` = menunjukkan id para penonton film
 - `movieId` = menunjukkan id dari film
